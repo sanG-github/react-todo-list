@@ -1,0 +1,21 @@
+.TodoItem {
+    display: flex;
+    border-top: 1px solid;
+    align-self: center;
+}
+
+.TodoItem > p {
+    padding-left: 15px;
+}
+
+.isComplete > p{
+    opacity: .2;
+}
+
+.img {
+    width: 20px;
+}
+
+.first-child{
+    border-top: 0px !important;
+}
